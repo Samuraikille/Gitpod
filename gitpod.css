@@ -6,12 +6,12 @@
     text-decoration: none;
 }
 body{
-    font-family: 'Roboto';
-   
+    font-family: 'Roboto';  
 }
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 32px;
 }
 section {
@@ -52,6 +52,7 @@ header button{
 
 .section1{
     display: flex;
+    justify-content: center;
     gap: 50px;
     margin-bottom: 18px;
 }
@@ -132,6 +133,8 @@ del {
         /* think */
 .section3 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 160px 0;
     margin-bottom: 177px;
     gap: 66px;
@@ -188,6 +191,11 @@ del {
 
             /*  design */
 .section4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    flex-wrap: wrap;
     text-align: center;
     margin-bottom: 180px;
 }
@@ -211,7 +219,6 @@ del {
 .btn {
     display: flex;
     gap: 16px;
-    margin-left: 444px;
 }
 .box1 {
     display: flex;
@@ -223,13 +230,13 @@ del {
 .box2 {
     display: flex;
     width: 207px;
-    height: 50px;
+    height: 50.5px;
     border-radius: 9px;
     background: #FFF;
     box-shadow: 0px 0.5px 2px 0px rgba(0, 0, 0, 0.10);
     position: absolute;
     top: -1px;
-    left: -1px;
+    left: -0.5px;
 }
 .box2 img {
     width: 24px;
@@ -248,6 +255,10 @@ del {
     /* reviews */
 .section5 {
     margin-bottom: 177px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
 }
 .section5 h2{
     color: #12100C;
@@ -308,4 +319,230 @@ span{
 .first img {
    width: 91.4px;
    height: 32.8px; 
+}
+
+        /* link */
+
+.section6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section6 h2{
+    color: #12100C;
+    text-align: center;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 133%; /* 133% */
+    margin-bottom: 48px;
+}
+.link {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+    text-align: center; 
+    margin-bottom: 160px;
+}
+.link_left {
+    width: 642px;
+    border-radius: 20px;
+    background: #efefef;
+}
+.link_left h4{
+    color: #12100C;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 125%; /* 125% */
+    padding-bottom: 8px;
+    padding-top: 56px;   
+}
+.link_left p{
+    font-size: 24px;
+    width:  650px;
+    padding: 0 86px;
+}
+.pod{
+    margin-top: 5px;
+    margin-bottom: 86px;
+    width: 151px;
+    height: 31px;
+    color: rgba(18, 16, 12, 0.70);
+    text-align: center;
+    font-size: 24px;
+    line-height: 133%; /* 133% */
+}
+.gitlab{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 114.286%; /* 114.286% */
+    margin-left: 180px;
+    margin-top: 62px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items:center;
+    gap: 16px;
+    width: 262px;
+    height: 46px;
+    border-radius: 12px;
+    background: #FC6D26;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+}
+.gitlab img{
+    margin-left: 33px;
+}
+.gitwhite {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 114.286%; /* 114.286% */
+    margin-left: 180px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items:center;
+    gap: 16px;
+    width: 262px;
+    height: 46px;
+    border-radius: 12px;
+    background: #000;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10); 
+}
+.gitwhite img{
+    margin-left: 33px;
+}
+.bitbucket {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 114.286%; /* 114.286% */
+    margin-left: 180px;
+    margin-bottom: 64px;
+    display: flex;
+    align-items:center;
+    gap: 16px;
+    width: 262px;
+    height: 46px;
+    border-radius: 12px;
+    background: #2684FF;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10); 
+}
+.bitbucket img{
+    margin-left: 33px;
+}
+.link_right {
+    width: 642px;
+    border-radius: 20px;
+    background: #efefef; 
+}
+.link_right h4{
+    color: #12100C;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 125%; /* 125% */
+    padding-bottom: 8px;
+    padding-top: 56px;   
+}
+.link_right p {
+    margin-bottom: 32px;
+}
+.company {
+    display: flex;
+    align-items:center;
+    gap: 16px;
+    width: 530px;
+    height: 56px;
+    border-radius: 12px;
+    background: #F9F9F9;
+    position: relative;
+    margin-left: 56px;
+    margin-bottom: 12px;
+}
+.company img{
+    width: 27px;
+    height: 27px;
+    margin: 15px 0 15px 16px;
+}
+.company h6{
+    color: rgba(18, 16, 12, 0.70);
+    font-size: 20px;
+    line-height: 100%;
+}
+.company button{
+    color: #FFF;
+    font-size: 14px;
+    line-height: 114.286%; /* 114.286% */
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    width: 143px;
+    height: 32px;
+    border-radius: 12px;
+    background: #12100C;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+}
+    /* footer */
+.footer_text{
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 171px;
+}
+.footer_text h6{
+    color: #12100C;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 150%; 
+}
+.footer_text ul{
+    display: flex;
+    flex-direction: column;
+    color: rgba(18, 16, 12, 0.70);
+    font-size: 13px;
+    line-height: 150%; 
+    gap: 7px;
+}
+hr {
+    display: block;
+    width: 852px;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    margin-left: 330px;
+    padding: 0;
+}
+.footer_logo{
+    display: flex;
+    justify-content: center;
+    gap: 475px;
+    margin-bottom: 35px;
+}
+.footer_info{
+    display: flex;
+    gap: 8px;
+}
+.footer_bottom{
+    display: flex;
+    gap: 650px;
+    background: #ECE7E5;
+    height: 48px;
+    padding-top: 12px;
+}
+.footer_bottom p{
+    font-size: 16px;
+    line-height: 150%;
+    margin-left: 16px;
+}
+.footer_bottom button{
+    width: 163px;
+    height: 32px;
+    border-radius: 8px;
+    background: #F9F9F9;
+    border: 0;
+    color: rgba(18, 16, 12, 0.70);
+    text-align: center;
+    font-size: 16px;
+    line-height: 150% ;
 }
